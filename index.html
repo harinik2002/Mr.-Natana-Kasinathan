@@ -15,8 +15,6 @@
         <ul>
           <li><a href="#" onclick="openModal('about')">ABOUT </a></li>
           <li><a href="#" onclick="openModal('books')">BOOKS</a></li>
-          <li><a href="#" onclick="openModal('discovery')">DISCOVERY</a></li>
-          <li><a href="#" onclick="openModal('perspectives')">PERSPECTIVES</a></li>
           <li><a href="#" onclick="openModal('contact')">CONTACT</a></li>
         </ul>
       </nav>
@@ -25,15 +23,14 @@
   
   <section class="main-content">
     <div class="container">
-      <h2>NATANA KASINATHAN</h2>
-      <p>Natana Kasinthan is an Indian historian, archaeologist, author and epigraphist who is known for his work on inscriptions of Tamil Nadu. He served as the Director of the Tamil Nadu Archaeology Department, Government of Tamil Nadu. He is credited for reviving the inscriptions relating to early Tamil civilizations.</p>
+      <h2>Natana Kasinathan</h2>
+      <p>A renowned Indian historian, archaeologist, and epigraphist, Natana Kasinathan has left an indelible mark on Tamil Nadu’s rich heritage. As the former Director of the Tamil Nadu Archaeology Department, he played a pivotal role in uncovering and preserving ancient Tamil inscriptions, shining a light on early Tamil civilizations.</p>
+      <p>With over 105 books to his name, including notable works on Vanniyar history, and numerous prestigious accolades, his contributions continue to inspire and shape the study of history and archaeology in India.</p>
+      <button class="btn btn-primary" onclick="openModal('about')">Learn More</button>
     </div>
   </section>
-
- 
-
   
-  
+
   <!-- Modal for ABOUT section -->
   <div id="aboutModal" class="modal">
     <div class="modal-content" style="background-color: rgba(255, 255, 255, 0.7);">
@@ -41,11 +38,13 @@
       <h2>About</h2>
       <h3>Natana Kasinathan</h3>
       <img src="IMAGES/Natana-Kasinathan,.avif" alt="Image description" style="width: 400px; height: auto;">
-      <p>Natana Kasinthan is an Indian historian, archaeologist, author and epigraphist who is known for his work on inscriptions of Tamil Nadu. He served as the Director of the Tamil Nadu Archaeology Department, Government of Tamil Nadu. He is credited for reviving the inscriptions relating to early Tamil civilizations.</p>
+      <p>Mr. Natana Kasinathan was born in 1940 in Chidambaram, Tamil Nadu, where he completed his early education. He pursued his undergraduate degree in BA History at Annamalai University in Chidambaram and later earned a MA in Archaeology from the University of Madras (now Chennai), further honing his expertise in the field.</p>
+      <p>Throughout his distinguished career, Mr. Kasinathan served as the Director of the Tamil Nadu Archaeology Department, where he became widely recognized for his invaluable contributions to the study of Tamil history, particularly inscriptions. He authored over 105 books, which have significantly advanced the understanding of ancient Tamil civilization and preserved important historical records for future generations.</p>
+      <p>His tireless work earned him several prestigious awards, including the U. V. Swaminatha Iyer Award from the Tamil Nadu Government, a testament to his outstanding contributions to Tamil culture and history. In recognition of his immense impact on the field, he was also honored with an award from the State Government of Tamil Nadu for his exceptional work, particularly for his book "கல்லெழுத்துக் கலை", which continues to be a pivotal reference in the study of Tamil epigraphy.</p>
+      <p>Mr. Kasinathan’s legacy as one of the greatest contributors to Tamil archaeology is solidified not only through his academic achievements but also through his deep dedication to uncovering and preserving the rich history of Tamil Nadu.</p>
     </div>
   </div>
 
-  <!-- Modal for BOOKS section -->
 <!-- Modal for BOOKS section -->
 <div id="booksModal" class="modal">
   <div class="modal-content" style="background-color: rgba(255, 255, 255, 0.7);">
@@ -490,32 +489,24 @@
 </div>
 
 
-  <!-- Modal for DISCOVERY section -->
-  <div id="discoveryModal" class="modal">
-    <div class="modal-content" style="background-color: rgba(255, 255, 255, 0.7);">
-      <span class="close" onclick="closeModal('discovery')">&times;</span>
-      <h2>Discovery by Mr. Natana Kasinathan</h2>
-      <p>Discoveries information goes here...</p>
-    </div>
-  </div>
+<!-- Modal for CONTACT section -->
+<div id="contactModal" class="modal">
+  <div class="modal-content" style="background-color: rgba(255, 255, 255, 0.9); border-radius: 10px; padding: 20px;">
+    <span class="close" onclick="closeModal('contact')">&times;</span>
+    <h2>Contact Natana Kasinathan</h2>
+    <p style="font-size: 1.2em;">You can reach out to Natana Kasinathan via the following contact details:</p>
+    
+    <div style="margin-top: 20px;">
+      <h3 style="color: #134b70; margin-bottom: 10px;">Address:</h3>
+      <p>Plot no: 136, 5th street, Malleswari nagar, Madambakkam , Selaiyur, chennai-600126</p>
 
-  <!-- Modal for PERSPECTIVES section -->
-  <div id="perspectivesModal" class="modal">
-    <div class="modal-content" style="background-color: rgba(255, 255, 255, 0.7);">
-      <span class="close" onclick="closeModal('perspectives')">&times;</span>
-      <h2>Perspectives by Mr. Natana Kasinathan</h2>
-      <p>Perspectives content goes here...</p>
-    </div>
-  </div>
+      <h3 style="color: #134b70; margin-bottom: 10px;">Phone Number:</h3>
+      <p>+91-9444899818</p>
 
-  <!-- Modal for CONTACT section -->
-  <div id="contactModal" class="modal">
-    <div class="modal-content" style="background-color: rgba(255, 255, 255, 0.7);">
-      <span class="close" onclick="closeModal('contact')">&times;</span>
-      <h2>Contact Natana Kasinathan</h2>
-      <p>Contact information goes here...</p>
     </div>
   </div>
+</div>
+
 
 <script src="script.js"></script> 
 <footer>
